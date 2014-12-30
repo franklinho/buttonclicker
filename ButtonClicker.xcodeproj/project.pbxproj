@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDBB49B71A53218A00BD1823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB49B61A53218A00BD1823 /* AppDelegate.swift */; };
+		DDBB49BA1A53218A00BD1823 /* ButtonClicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDBB49B81A53218A00BD1823 /* ButtonClicker.xcdatamodeld */; };
+		DDBB49BC1A53218A00BD1823 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB49BB1A53218A00BD1823 /* ViewController.swift */; };
+		DDBB49BF1A53218A00BD1823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBB49BD1A53218A00BD1823 /* Main.storyboard */; };
+		DDBB49C11A53218A00BD1823 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBB49C01A53218A00BD1823 /* Images.xcassets */; };
+		DDBB49C41A53218A00BD1823 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBB49C21A53218A00BD1823 /* LaunchScreen.xib */; };
+		DDBB49D01A53218A00BD1823 /* ButtonClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB49CF1A53218A00BD1823 /* ButtonClickerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDBB49CA1A53218A00BD1823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDBB49A91A53218A00BD1823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDBB49B01A53218A00BD1823;
+			remoteInfo = ButtonClicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDBB49B11A53218A00BD1823 /* ButtonClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBB49B51A53218A00BD1823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBB49B61A53218A00BD1823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDBB49B91A53218A00BD1823 /* ButtonClicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ButtonClicker.xcdatamodel; sourceTree = "<group>"; };
+		DDBB49BB1A53218A00BD1823 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDBB49BE1A53218A00BD1823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDBB49C01A53218A00BD1823 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDBB49C31A53218A00BD1823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDBB49C91A53218A00BD1823 /* ButtonClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBB49CE1A53218A00BD1823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBB49CF1A53218A00BD1823 /* ButtonClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClickerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBB49AE1A53218A00BD1823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBB49C61A53218A00BD1823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDBB49A81A53218A00BD1823 = {
+			isa = PBXGroup;
+			children = (
+				DDBB49B31A53218A00BD1823 /* ButtonClicker */,
+				DDBB49CC1A53218A00BD1823 /* ButtonClickerTests */,
+				DDBB49B21A53218A00BD1823 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBB49B21A53218A00BD1823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB49B11A53218A00BD1823 /* ButtonClicker.app */,
+				DDBB49C91A53218A00BD1823 /* ButtonClickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBB49B31A53218A00BD1823 /* ButtonClicker */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB49B61A53218A00BD1823 /* AppDelegate.swift */,
+				DDBB49BB1A53218A00BD1823 /* ViewController.swift */,
+				DDBB49BD1A53218A00BD1823 /* Main.storyboard */,
+				DDBB49C01A53218A00BD1823 /* Images.xcassets */,
+				DDBB49C21A53218A00BD1823 /* LaunchScreen.xib */,
+				DDBB49B81A53218A00BD1823 /* ButtonClicker.xcdatamodeld */,
+				DDBB49B41A53218A00BD1823 /* Supporting Files */,
+			);
+			path = ButtonClicker;
+			sourceTree = "<group>";
+		};
+		DDBB49B41A53218A00BD1823 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB49B51A53218A00BD1823 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDBB49CC1A53218A00BD1823 /* ButtonClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB49CF1A53218A00BD1823 /* ButtonClickerTests.swift */,
+				DDBB49CD1A53218A00BD1823 /* Supporting Files */,
+			);
+			path = ButtonClickerTests;
+			sourceTree = "<group>";
+		};
+		DDBB49CD1A53218A00BD1823 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB49CE1A53218A00BD1823 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBB49B01A53218A00BD1823 /* ButtonClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBB49D31A53218A00BD1823 /* Build configuration list for PBXNativeTarget "ButtonClicker" */;
+			buildPhases = (
+				DDBB49AD1A53218A00BD1823 /* Sources */,
+				DDBB49AE1A53218A00BD1823 /* Frameworks */,
+				DDBB49AF1A53218A00BD1823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonClicker;
+			productName = ButtonClicker;
+			productReference = DDBB49B11A53218A00BD1823 /* ButtonClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDBB49C81A53218A00BD1823 /* ButtonClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBB49D61A53218A00BD1823 /* Build configuration list for PBXNativeTarget "ButtonClickerTests" */;
+			buildPhases = (
+				DDBB49C51A53218A00BD1823 /* Sources */,
+				DDBB49C61A53218A00BD1823 /* Frameworks */,
+				DDBB49C71A53218A00BD1823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDBB49CB1A53218A00BD1823 /* PBXTargetDependency */,
+			);
+			name = ButtonClickerTests;
+			productName = ButtonClickerTests;
+			productReference = DDBB49C91A53218A00BD1823 /* ButtonClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBB49A91A53218A00BD1823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Franklin Ho";
+				TargetAttributes = {
+					DDBB49B01A53218A00BD1823 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DDBB49C81A53218A00BD1823 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DDBB49B01A53218A00BD1823;
+					};
+				};
+			};
+			buildConfigurationList = DDBB49AC1A53218A00BD1823 /* Build configuration list for PBXProject "ButtonClicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBB49A81A53218A00BD1823;
+			productRefGroup = DDBB49B21A53218A00BD1823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBB49B01A53218A00BD1823 /* ButtonClicker */,
+				DDBB49C81A53218A00BD1823 /* ButtonClickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBB49AF1A53218A00BD1823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBB49BF1A53218A00BD1823 /* Main.storyboard in Resources */,
+				DDBB49C41A53218A00BD1823 /* LaunchScreen.xib in Resources */,
+				DDBB49C11A53218A00BD1823 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBB49C71A53218A00BD1823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBB49AD1A53218A00BD1823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBB49BC1A53218A00BD1823 /* ViewController.swift in Sources */,
+				DDBB49B71A53218A00BD1823 /* AppDelegate.swift in Sources */,
+				DDBB49BA1A53218A00BD1823 /* ButtonClicker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBB49C51A53218A00BD1823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBB49D01A53218A00BD1823 /* ButtonClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDBB49CB1A53218A00BD1823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDBB49B01A53218A00BD1823 /* ButtonClicker */;
+			targetProxy = DDBB49CA1A53218A00BD1823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDBB49BD1A53218A00BD1823 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBB49BE1A53218A00BD1823 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDBB49C21A53218A00BD1823 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBB49C31A53218A00BD1823 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDBB49D11A53218A00BD1823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDBB49D21A53218A00BD1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDBB49D41A53218A00BD1823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDBB49D51A53218A00BD1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDBB49D71A53218A00BD1823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonClickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonClicker.app/ButtonClicker";
+			};
+			name = Debug;
+		};
+		DDBB49D81A53218A00BD1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonClickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonClicker.app/ButtonClicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBB49AC1A53218A00BD1823 /* Build configuration list for PBXProject "ButtonClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBB49D11A53218A00BD1823 /* Debug */,
+				DDBB49D21A53218A00BD1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBB49D31A53218A00BD1823 /* Build configuration list for PBXNativeTarget "ButtonClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBB49D41A53218A00BD1823 /* Debug */,
+				DDBB49D51A53218A00BD1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDBB49D61A53218A00BD1823 /* Build configuration list for PBXNativeTarget "ButtonClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBB49D71A53218A00BD1823 /* Debug */,
+				DDBB49D81A53218A00BD1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDBB49B81A53218A00BD1823 /* ButtonClicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDBB49B91A53218A00BD1823 /* ButtonClicker.xcdatamodel */,
+			);
+			currentVersion = DDBB49B91A53218A00BD1823 /* ButtonClicker.xcdatamodel */;
+			path = ButtonClicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDBB49A91A53218A00BD1823 /* Project object */;
+}
